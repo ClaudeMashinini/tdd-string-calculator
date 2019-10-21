@@ -21,6 +21,4 @@ function add(string) {
   return result;
 }
 
-module.exports = {
-  add: add
-};
+module.exports = add;

@@ -1,5 +1,4 @@
-var importer = require("../string-calc");
-var calculator = importer.add;
+var calculator = require("../string-calc");
 
 describe("Tests for a string calculator", function() {
   it("should return a zero if passed an empty string", function() {
